@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black; /* Añadir imagen de fondo */
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+}
+
+/* Estilos para los encabezados */
+h1 {
+    color: #ffccff; /* Color para h1 */
+}
+
+h2 {
+    color: #964d71; /* Color para h2 */
+}
+
+h3 {
+    color: #d33e6f; /* Color para h3 */
+}
+
+h4 {
+    color: #ff3399; /* Color para h4 */
+}
+
+nav {
+    background-color: rgba(255, 192, 203, 0.9); /* Fondo rosado */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Mostrar los elementos en línea */
+    margin-right: 20px; /* Espaciado entre los enlaces */
+}
+
+nav ul li a {
+    text-decoration: none; /* Sin subrayado */
+    color: #ffffff; /* Color del texto del menú */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo oscuro con opacidad */
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    max-width: 600px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Centrar el carrusel */
+}
+
+.carousel-images {
+    display: flex; /* Mantener las imágenes en línea */
+    transition: transform 0.5s ease; /* Efecto suave al cambiar */
+}
+
+.carousel-images img { /* Asegúrate de referenciar .carousel-images */
+    width: 100%; /* Ancho completo para las imágenes */
+    height: auto; /* Mantener la proporción */
+    flex: 0 0 100%; /* Cada imagen ocupa el 100% del contenedor */
+}
+
+.card {
+    background-color: rgba(255, 192, 203, 0.9); /* Color de fondo de las tarjetas con opacidad */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 250, 250, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    overflow: hidden;
+    padding: 20px; /* Agregar padding a las tarjetas */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad para el pie de página */
+    padding: 10px;
+    text-align: center;
+    color: #ffffff; /* Color del texto del pie de página */
+}
+
+.card img {
+    width: 100%; /* Ancho completo para las imágenes */
+    border-radius: 5px; /* Bordes redondeados */
+}
